@@ -22644,7 +22644,7 @@ vl.createRoot(document.getElementById("root")).render(
   x.jsx(qw, {
     theme: e3(),
     children: x.jsxs(Gy, {
-      basename: "https://seows2.github.io/seows.blog",
+      basename: "/seows.blog",
       children: [x.jsx(ak, {}), x.jsx(Kk, {})],
     }),
   })
