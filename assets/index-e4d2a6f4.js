@@ -15738,7 +15738,7 @@ const Td = Lr(cE),
             t,
           ],
         }),
-        x.jsx(mE, { alt: "me", src: "seows.blog/img/me.png" }),
+        x.jsx(mE, { alt: "me", src: "img/me.png" }),
       ],
     });
   };
@@ -21470,8 +21470,8 @@ class ik {
       document.body.appendChild(this.viewportTracker);
   }
 }
-const sk = "/assets/AppleSDGothicNeoM-0ab8f404.ttf",
-  ok = "/assets/AppleSDGothicNeoB-a652ea0a.ttf",
+const sk = "assets/AppleSDGothicNeoM-0ab8f404.ttf",
+  ok = "assets/AppleSDGothicNeoB-a652ea0a.ttf",
   ak = Jw`
   @font-face {
     font-family: 'AppleSDGothicNeo';
@@ -22444,27 +22444,27 @@ const sk = "/assets/AppleSDGothicNeoM-0ab8f404.ttf",
                 className: "photography--collage",
                 children: [
                   x.jsx("img", {
-                    src: "seows.blog/img/suo_photo_main.jpeg",
+                    src: "img/suo_photo_main.jpeg",
                     alt: "고양이1",
                   }),
                   x.jsx("img", {
-                    src: "seows.blog/img/ha_photo_main.jpg",
+                    src: "img/ha_photo_main.jpg",
                     alt: "고양이2",
                   }),
                   x.jsx("img", {
-                    src: "seows.blog/img/mak_photo_main.jpeg",
+                    src: "img/mak_photo_main.jpeg",
                     alt: "고양이3",
                   }),
                   x.jsx("img", {
-                    src: "seows.blog/img/tung_photo_main.jpg",
+                    src: "img/tung_photo_main.jpg",
                     alt: "고양이4",
                   }),
                   x.jsx("img", {
-                    src: "seows.blog/img/zizon_photo_main.jpeg",
+                    src: "img/zizon_photo_main.jpeg",
                     alt: "고양이5",
                   }),
                   x.jsx("img", {
-                    src: "seows.blog/img/me.jpeg",
+                    src: "img/me.jpeg",
                     alt: "서우석 사진",
                   }),
                 ],
