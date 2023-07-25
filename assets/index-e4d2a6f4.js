@@ -15738,7 +15738,7 @@ const Td = Lr(cE),
             t,
           ],
         }),
-        x.jsx(mE, { alt: "me", src: "img/me.png" }),
+        x.jsx(mE, { alt: "me", src: "me.png" }),
       ],
     });
   };
