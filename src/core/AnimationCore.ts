@@ -65,7 +65,6 @@ class AnimationCore {
     this.animations.forEach((a) => a.onScroll && a.onScroll(metric));
   }
   onMouseDown(t: any) {
-    let a = 'test';
     this.isActive &&
       this.animations.forEach((e) => {
         e.onMouseDown && e.onMouseDown(t);
