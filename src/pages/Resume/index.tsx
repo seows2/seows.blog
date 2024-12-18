@@ -21,9 +21,9 @@ const Resume = () => {
         </S.ResumeLink>
 
         <p>
-          {`
-          디자인, 애니메이션, 문제 해결, 프론트엔드 최신 기술 습득에 대한 열정을 가진 창의적인 개발자
-          `}
+          {`React, TypeScript 기반의 3년차 프론트엔드 개발자로,
+          사내에서 Design System을 구축하고 Jeus 및 HyperFrame 제품의 어드민 화면등을 개발해왔습니다.
+          디자인과 애니메이션에 관심이 많으며, 프론트엔드 최신 기술을 꾸준히 습득하고 적용하는 것을 좋아하는 개발자입니다.`}
         </p>
       </S.ResumeIntro>
       <S.ResumeSkill>
@@ -77,9 +77,9 @@ const Resume = () => {
                   React, TypeScript, Material UI, TanStack Query, Mobx, React Hook Form
                 </S.ResumeWorkRowsItemPlaceholder>
                 <p>
-                  기존에 개발된 여러 서비스에 대한 유지보수 및 신규 기능 개발과 함께 새로운
-                  서비스로의 점진적 마이그레이션을 동시에 진행하는 상황에서 컨텍스트 스위칭을 역량을
-                  기르고자 노력했습니다.
+                  기존 여러 서비스의 유지보수 및 신규 기능 개발을 병행하며 새로운 서비스로의 점진적
+                  마이그레이션을 동시에 진행하는 상황에서 컨텍스트 스위칭을 역량을 기르고자
+                  노력했습니다.
                 </p>
                 <p>
                   검색 패널 및 테이블, 생성과 수정 폼 등 비슷한 UI가 많은 여러 어드민을 개발하는
@@ -257,7 +257,7 @@ const Resume = () => {
                 <br />
                 <h5>| CI 자동화 툴 스크립트 개발을 통한 코드 품질 관리 강화</h5>
                 <p>
-                  MR 단계에서 코드 품질을 자동으로 검사하는 CI 자동화 툴을 개발하여 코드 품질 관리
+                  MR 단계에서 코드 품질을 검사하는 CI 자동화 플로우를 개발하여 코드 품질 관리
                   프로세스를 개선했습니다. 이로인해 모노레포 환경에서도 일관된 코드 스타일과 품질을
                   유지할 수 있었고, 오류의 위치 및 메세지를 확인할 수 있게 만들어 개발자의 경험도
                   높혔습니다.
@@ -266,46 +266,33 @@ const Resume = () => {
             </S.ResumeWorkRowsItemDescription>
           </S.ResumeWorkRowsItem>
         </S.ResumeWorkRows>
+        <h2>Experience</h2>
         <S.ResumeWorkRows>
           <S.ResumeWorkRowsItem>
             <S.ResumeWorkRowsItemTitle>
-              <h3>Portfolio Page</h3>
-              <span>2023</span>
+              <h3>기고</h3>
             </S.ResumeWorkRowsItemTitle>
             <S.ResumeWorkRowsItemDescription>
               <S.ResumeWorkRowsItemDescriptionContents>
-                <p>React + Vite + TS기반의 프로젝트</p>
-                <p>Gsap + React Spring등의 애니메이션 라이브러리 사용</p>
-                <p>GLSL언어를 통한 애니메이션 일부 적용</p>
-              </S.ResumeWorkRowsItemDescriptionContents>
-            </S.ResumeWorkRowsItemDescription>
-          </S.ResumeWorkRowsItem>
-        </S.ResumeWorkRows>
-        <S.ResumeWorkRows>
-          <S.ResumeWorkRowsItem>
-            <S.ResumeWorkRowsItemTitle>
-              <h3>Wedding Demo</h3>
-              <span>2022</span>
-            </S.ResumeWorkRowsItemTitle>
-            <S.ResumeWorkRowsItemDescription>
-              <S.ResumeWorkRowsItemDescriptionContents>
-                <p>React + Styled Component 기반의 웹페이지</p>
-                <p>직접 디자인하고 기획을 한 뒤 개발</p>
-              </S.ResumeWorkRowsItemDescriptionContents>
-            </S.ResumeWorkRowsItemDescription>
-          </S.ResumeWorkRowsItem>
-        </S.ResumeWorkRows>
-        <S.ResumeWorkRows>
-          <S.ResumeWorkRowsItem>
-            <S.ResumeWorkRowsItemTitle>
-              <h3>Cat Fansite</h3>
-              <span>2021</span>
-            </S.ResumeWorkRowsItemTitle>
-            <S.ResumeWorkRowsItemDescription>
-              <S.ResumeWorkRowsItemDescriptionContents>
-                <p>HTML + CSS + JS를 기반의 웹페이지</p>
-                <p>CSS media쿼리를 활용하여 모바일 화면 구현</p>
-                <p>이미지 lazy loading, 화면 overlay 기법의 구현</p>
+                <p>
+                  사내 소프트 스터디 발표 및 아티클 기고
+                  <S.Improve>
+                    <S.Link
+                      href="https://youtu.be/Qfgl9o7w6sQ?si=amsXaFOB6h819U9-"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [Youtube] [소프트스터디] REACT v18 Suspense 뜯어보기
+                    </S.Link>
+                  </S.Improve>
+                  <S.Improve>
+                    <S.Link href="https://naver.me/xCiit3Jh">[Blog] React Suspense 뜯어보기</S.Link>
+                  </S.Improve>
+                  <S.Improve>
+                    - 내부 스터디에서 우수 발표 사례로 추천 받아 사내 아티클 기고
+                  </S.Improve>
+                  <S.Improve>- 발표를 통해 팀원들이 새로운 기술을 도입하는데 도움을 줌</S.Improve>
+                </p>
               </S.ResumeWorkRowsItemDescriptionContents>
             </S.ResumeWorkRowsItemDescription>
           </S.ResumeWorkRowsItem>

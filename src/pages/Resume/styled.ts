@@ -250,5 +250,10 @@ export const Divider = styled.div`
 `;
 
 export const Improve = styled.span`
-  display: inline-block;
+  display: block;
+`;
+
+export const Link = styled.a`
+  margin: 0 4px;
+  color: ${({ theme }) => theme.color.black_alpha2};
 `;
