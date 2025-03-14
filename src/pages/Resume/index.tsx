@@ -21,7 +21,7 @@ const Resume = () => {
         </S.ResumeLink>
 
         <p>
-          {`React, TypeScript 기반의 3년차 프론트엔드 개발자로,
+          {`React, TypeScript 기반의 4년차 프론트엔드 개발자로,
           사내에서 Design System을 구축하고 Jeus 및 HyperFrame 제품의 어드민 화면등을 개발해왔습니다.
           디자인과 애니메이션에 관심이 많으며, 프론트엔드 최신 기술을 꾸준히 습득하고 적용하는 것을 좋아하는 개발자입니다.`}
         </p>
@@ -128,43 +128,6 @@ const Resume = () => {
               </S.ResumeWorkRowsItemDescriptionContents>
               <S.Divider />
               <S.ResumeWorkRowsItemDescriptionContents>
-                <h4>Tmax Design System</h4>
-                <h5>2023.01 - present</h5>
-                <p>사내 디자인 시스템(TDS) 개발 및 유지보수를 위한 공용 컴포넌트를 개발했습니다.</p>
-                <S.ResumeWorkRowsItemPlaceholder>
-                  React, TypeScript, Emotion
-                </S.ResumeWorkRowsItemPlaceholder>
-                <p>
-                  기존에는 사내에서 사용되는 디자인이 팀별로 파편화 되어있는 문제, 디자인과 개발
-                  간의 싱크가 안 맞는 문제가 존재했습니다. 이를 해결하고자, 디자이너팀과 협동하여
-                  TmaxSoft 내부 프론트엔드 개발에 사용되는 TDS를 기획하고 정립함과 동시에 디자인
-                  시스템을 데이터화하여 디자이너, 개발자, 기획자 모두가 일관되게 최신화된 디자인
-                  시스템을 사용할 수 있도록 개선하였습니다.
-                </p>
-                <p>
-                  디자이너팀이 피그마를 통해 파운데이션을 저장 및 수정하면 개발자가 파운데이션을
-                  다운받아 디자인 시스템에 적용될 수 있는 흐름을 구축하였고, 아이콘 추가시에도
-                  자동으로 디자인 시스템이 추가되는 툴을 개발하여 DX를 향상시켰습니다.
-                </p>
-                <br />
-                <h4>| 개발자 생산성 증가 기여</h4>
-                <p>
-                  TDS를 및 공용 유틸을 개발자가 사용하기 쉽도록 Turborepo 기반의 Monorepo 환경을
-                  구축하였습니다.
-                </p>
-                <p>
-                  TDS 배포 -&gt; 테스트 -&gt; Storybook 배포 자동화 프로세스를 위해 쿠버네티스와
-                  Jenkins CI/CD환경을 구축했습니다.
-                </p>
-                <br />
-                <h4>| 공통 패키지 개발</h4>
-                <p>
-                  TmaxSoft 공통 패키지 개발을 통해 각 App간의 중복 코드를 제거하고 개발 효율성을
-                  향상시켰습니다.
-                </p>
-              </S.ResumeWorkRowsItemDescriptionContents>
-              <S.Divider />
-              <S.ResumeWorkRowsItemDescriptionContents>
                 <h4>HyperFrameAdmin</h4>
                 <h5>2023.08 - present</h5>
                 <p>
@@ -174,6 +137,19 @@ const Resume = () => {
                 <S.ResumeWorkRowsItemPlaceholder>
                   React, TypeScript, TanStack Query, Mobx, React Hook Form
                 </S.ResumeWorkRowsItemPlaceholder>
+                <br />
+                <h5>| 프로젝트 리딩 및 사용자 경험 개선</h5>
+                <p>
+                  디자이너가 없는 상황에서 좋은 UI를 위해 기획 파트와 의사 소통하며 모든 페이지를
+                  설계, 개발했습니다. 또한 실제 사용자들의 피드백을 바탕으로 기능과 UX를 추가,
+                  개선하였습니다.
+                </p>
+                <p>
+                  초기 설계부터 배포까지 전 과정에 참여하며 프로젝트를 주도적으로 이끌었습니다.
+                  사용자 인터뷰를 기반으로 서비스를 발전시켜 나갔고 고객의 요구를 반영한 결과 많은
+                  고객사를 유치했던 성과를 거두었습니다. 이러한 경험은 프로젝트를 성공적으로
+                  이끌어나가는 리더십을 기르게 해주었습니다.
+                </p>
                 <br />
                 <h5>| 업무그룹 및 권한 페이지</h5>
                 <p>
@@ -189,7 +165,44 @@ const Resume = () => {
               </S.ResumeWorkRowsItemDescriptionContents>
               <S.Divider />
               <S.ResumeWorkRowsItemDescriptionContents>
-                <h4>Improve Our Frontend Team Culture</h4>
+                <h4>Tmax Design System</h4>
+                <h5>2023.01 - present</h5>
+                <p>사내 디자인 시스템(TDS) 개발 및 유지보수를 위한 공용 컴포넌트를 개발했습니다.</p>
+                <S.ResumeWorkRowsItemPlaceholder>
+                  React, TypeScript, Emotion
+                </S.ResumeWorkRowsItemPlaceholder>
+                <p>
+                  기존에는 사내에서 사용되는 디자인이 팀별로 파편화 되어있는 문제, 디자인과 개발
+                  간의 싱크가 안 맞는 문제가 존재했습니다. 이를 해결하고자, 디자이너팀과 협동하여
+                  TmaxSoft 내부 프론트엔드 개발에 사용되는 TDS를 기획하고 정립함과 동시에 디자인
+                  시스템을 데이터화하여 디자이너, 개발자, 기획자 모두가 일관되게 최신화된 디자인
+                  시스템을 사용할 수 있도록 개선하였습니다.
+                </p>
+                <br />
+                <h4>| 디자이너간의 협업 최적화</h4>
+                <p>
+                  디자이너팀이 피그마를 통해 파운데이션을 저장 및 수정하면 개발자가 파운데이션을
+                  다운받아 디자인 시스템에 적용될 수 있는 흐름을 구축하였고, 아이콘 추가시에도
+                  자동으로 디자인 시스템이 추가되는 툴을 개발하여 DX를 향상시켰습니다.
+                </p>
+                <br />
+                <h4>| 웹 최적화</h4>
+                <p>웹 최적화를 위해 TreeShaking을 지원할 수 있도록 개발하였습니다.</p>
+                <br />
+                <h4>| 개발자 생산성 증가 기여</h4>
+                <p>
+                  TDS를 및 공용 유틸을 개발자가 사용하기 쉽도록 Turborepo 기반의 Monorepo 환경을
+                  구축하였습니다.
+                </p>
+                <p>
+                  TDS 배포 -&gt; 테스트 -&gt; Storybook 배포 자동화 프로세스를 위해 쿠버네티스와
+                  Jenkins CI/CD환경을 구축했습니다.
+                </p>
+                <br />
+              </S.ResumeWorkRowsItemDescriptionContents>
+
+              <S.ResumeWorkRowsItemDescriptionContents>
+                <h4>Enhancing Our Frontend Team Culture</h4>
                 <h5>2021.08 - present</h5>
                 <p>
                   회사에 입사한 이후로 전문적인 프론트엔드 조직을 만들고 협업을 위하여 직접 기여한
@@ -238,6 +251,41 @@ const Resume = () => {
                   등의 문제를 효과적으로 해결할 수 있게 되었습니다.
                 </p>
                 <br />
+                <h5>| Module Federation을 통한 Micro Frontend 구축</h5>
+                <p>
+                  SFM 프로젝트에서 어드민의 통합을 위한 Micro Frontend 아키텍쳐를 도입을
+                  주도하였습니다.
+                </p>
+                <p>
+                  SFM에는 Jeus, ProObject, HFM과 같은 여러 개의 독립적인 어드민 페이지가
+                  포함되어야했는데, 하나의 코드베이스로 합쳐질 경우 각 어드민을 담당하는 개발자들의
+                  독립성이 약화되고, 특정 기술 스택을 강제하게되며, 배포 및 QA 과정이 복잡해지는
+                  문제가 있었습니다.
+                </p>
+                <p>
+                  Micro Frontend 구조를 적용함으로써, 각 팀이 원하는 기술 스택을 유지하면서도,
+                  독립적으로 개발, 테스트, 배포할 수 있도록 보장했습니다. 이를 통해 팀별로 더
+                  빠르고, 유연하게 업무를 수핼할 수 있으며, 프로젝트의 유지보수성을 높이는 동시에,
+                  개발 문화의 자율성과 오너쉽을 강화할 수 있었습니다.
+                </p>
+                <br />
+                <h5>| E2E 테스트 환경 구축</h5>
+                <p>
+                  마틴 파울러의 Page Object Model에 영감을 받아 Cypress를 활용한 E2E 테스트를 설계
+                  및 테스트 환경을 개선하였습니다.
+                </p>
+                <p>
+                  셀렉터와 Page Object Model을 결합해 DOM요소를 추상화한 E2E Object를 설계하고
+                  구현했습니다. 이를 통해 DOM요소를 더욱 안전하고 효율적으로 찾을 수 있었고 테스트
+                  코드의 가독성과 유지보수성을 동시에 향상시켰습니다.
+                </p>
+                <p>
+                  결과적으로, 프로젝트 전체적인 테스트 커버리지가 증가하여 제품을 안정적으로 배포할
+                  수 있었습니다. 또한 이러한 방식을 팀 차원에서 쉽게 활용할 수 있도록 가이드를
+                  작성하여 팀원들과 공유하였고 해당 가이드는 팀원끼리 일관된 방식으로 테스트를
+                  작성할 수 있도록 도움을 주었습니다.
+                </p>
+                <br />
                 <h5>| CI/CD 환경 구축 및 자동화</h5>
                 <p>
                   Jenkins를 통해 자동화된 빌드 및 태그를 기반으로한 배포 프로세스를 구현했습니다
@@ -248,19 +296,37 @@ const Resume = () => {
                   이 도구를 Jenkins와 연동하여 전체 프로세스의 자동화 수준을 높였습니다.
                 </p>
                 <br />
+                <h4>| 공통 패키지 개발 및 테스트 코드 작성</h4>
+                <p>
+                  TmaxSoft 공통 패키지 개발을 통해 각 App간의 중복 코드를 제거하고 개발 효율성을
+                  향상시켰습니다.
+                </p>
+                <p>
+                  공통 Hooks 및 Utils 패키지를 개발하여 코드의 재사용성을 높이고 일관된 개발경험을
+                  제공할 수 있도록 했습니다. 이를 위해 jest를 활용한 테스트코드를 작성하여 테스트
+                  커버리지를 높이고 코드의 신뢰성을 높였습니다.
+                </p>
+                <p>
+                  또한 사용 방법에 대한 문서를 작성하여 모든 개발자가 쉽게 활용할 수 있도록
+                  가이드화하였습니다. 이를 통해 팀원들이 공통 패키지를 원활하게 도입하고 유지보수 할
+                  수 있도록 지원했습니다.
+                </p>
+                <br />
                 <h5>| 팀 내부적적인 코드 리뷰 문화 확립</h5>
                 <p>
-                  모노레포 변경 이후 패키지 별로 랜덤 리뷰어를 지정하는 NodeJS 서버를 구축하여 코드
-                  리뷰 프로세스를 체계화 했습니다. 이 시스템은 구축 이후 안정적으로 운영되고 잇으며,
-                  팀 내 코드 리뷰 문화를 크게 개선했습니다.
+                  모노레포 전환 이후 패키지별 랜덤 리뷰어를 자동 지정하는 NodeJS express 기반 코드
+                  리뷰 시스템을 구축하여 리뷰 프로세스를 체계화 했습니다. 이 시스템을 통해 코드
+                  리뷰가 보다 원활하게 진행되었으며, 프로젝트별 오너쉽 강화와 팀 내 코드 리뷰 문화
+                  개선에 기여했습니다. 현재까지도 안정적으로 운영되며 효율적인 협업 환경을 지원하고
+                  있습니다.
                 </p>
                 <br />
                 <h5>| CI 자동화 툴 스크립트 개발을 통한 코드 품질 관리 강화</h5>
                 <p>
                   MR 단계에서 코드 품질을 검사하는 CI 자동화 플로우를 개발하여 코드 품질 관리
-                  프로세스를 개선했습니다. 이로인해 모노레포 환경에서도 일관된 코드 스타일과 품질을
-                  유지할 수 있었고, 오류의 위치 및 메세지를 확인할 수 있게 만들어 개발자의 경험도
-                  높혔습니다.
+                  프로세스를 개선했습니다. 이 시스템을 통해 모노레포 환경에서도 일관된 코드 스타일과
+                  품질을 유지할 수 있었고, 오류의 위치 및 메세지를 확인할 수 있게 만들어 개발자의
+                  경험을 향상시켰습니다.
                 </p>
               </S.ResumeWorkRowsItemDescriptionContents>
             </S.ResumeWorkRowsItemDescription>
