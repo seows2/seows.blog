@@ -200,7 +200,6 @@ const Resume = () => {
                 </p>
                 <br />
               </S.ResumeWorkRowsItemDescriptionContents>
-
               <S.ResumeWorkRowsItemDescriptionContents>
                 <h4>Enhancing Our Frontend Team Culture</h4>
                 <h5>2021.08 - present</h5>
